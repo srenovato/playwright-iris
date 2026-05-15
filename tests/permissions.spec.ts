@@ -19,8 +19,7 @@ test('Permission - Access to Approval controls - The role Test Subject should no
 });
 
 test('Permission - Access to Export controls - The role Junior Coordinator should not access export controls', async ({ page }) => {
-
-    await loginAs(page, {
+  await loginAs(page, {
       role: 'Junior Test Coordinator',
       password: process.env.JUNIOR_PASSWORD!,
     });
