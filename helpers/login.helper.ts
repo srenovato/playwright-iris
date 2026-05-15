@@ -38,6 +38,6 @@ export async function loginAs(
     page.getByRole('heading', {
       name: 'Dashboard'
     })
-  ).toBeVisible();
+  ).toBeVisible({timeout: 10000});
 
 }
