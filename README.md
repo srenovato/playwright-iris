@@ -60,9 +60,9 @@ After creating the file and providing valid credentials, the framework should be
 ## Installation
 
 >Clone the repository:
-
+```
 git clone <repository-url>
-
+```
 > Install dependencies:
 
 npm install
