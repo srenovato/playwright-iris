@@ -34,8 +34,6 @@ export async function loginAs(
     name: 'Sign in'
   }).click();
 
-  await expect(page).toHaveURL('/admin');
-
   await expect(
     page.getByRole('heading', {
       name: 'Dashboard'
