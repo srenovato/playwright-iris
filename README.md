@@ -43,14 +43,14 @@ The `.env` file is intentionally excluded from the repository through `.gitignor
 
 To execute the test locally, create a `.env` file in the root of the project using the following structure:
 
-
+```
 CASE_TOKEN=<case-token>
 
 TEST_SUBJECT_PASSWORD=<test-subject-password>
 JUNIOR_PASSWORD=<junior-password>
 SENIOR_PASSWORD=<senior-password>
 DIRECTOR_PASSWORD=<director-password>
-
+```
 After creating the file and providing valid credentials, the framework should be ready to run successfully. 
 
 
@@ -64,13 +64,13 @@ After creating the file and providing valid credentials, the framework should be
 git clone <repository-url>
 ```
 > Install dependencies:
-
+```
 npm install
-
+```
 > Install Playwright browsers:
-
+```
 npx playwright install
-
+```
 ---
 
 
@@ -78,17 +78,17 @@ npx playwright install
 
 
 > Run all tests:
-
+```
 npx playwright test
-
+```
 > Run a specific spec:
-
+```
 npx playwright test tests/permissions.spec.ts
-
+```
 > Open Playwright report:
-
+```
 npx playwright show-report
-
+```
 ---
 
 ## Test Report
